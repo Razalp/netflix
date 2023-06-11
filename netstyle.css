@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://assets.nflxext.com/ffe/siteui/vlv3/76c10fc9-7ccd-4fbf-bc59-f16a468921ca/4fb4af6e-d0ca-4c7f-b004-b34226727e55/IN-en-20230529-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    position: relative;
+}
+#netflix{
+    width: 179px;
+    height: 102px;
+    margin-left: 139px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+.button{
+   float:right;
+   justify-content: space-between;
+   border: 0;
+   outline: 0;
+   background:transparent;
+   color: white;
+   padding: 7px 20px;
+   font-size: 12px;
+   border-radius: 4px;
+   margin-left: 10px;
+   cursor: pointer;
+}
+#selection{
+    background-color: transparent;
+    color: white;
+    width: 123px;
+    height: 32px;
+    border-color: white ;
+    border-radius: 7%;
+    margin-left: 10px;
+    margin-right: 29px;
+}
+#but{
+    width: 97px;
+    height: 32px;
+    background-color: red;
+    color: white;
+    border-radius: 5%;
+    border-color: transparent;
+    padding-right: 2px;
+    margin-right: 117px;
+}
+.cont-head{
+    position: absolute;
+    top: 41%;
+    left: 28%;
+    transform: translate(-50,-50);
+    text-align: center;
+    margin-top: 100px;
+}
+.email-signup{
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.email-signup input{
+    background-color: rgba(0,0,0,0.5);
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left:20px;
+    color: white;
+}
+.email-signup button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+/*next*/
+.next{
+padding: 50px 12%;
+font-size: 22px;
+
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px ;
+
+}
+.text-type{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-type{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-type img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+.next h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.head h2{
+    font-size: 43px;
+    font-weight: 100px;
+    padding-left: 28%;
+}
+.qust{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+
+}
+.qust li{
+    list-style: none;
+    width: 100%;
+    padding: 5px ;
+
+}
+.qust li label{
+display: flex;
+align-items: center;  
+padding: 20px;
+font-size: 20px;
+font-weight: 500;
+background: #303030;
+margin-top: 2px;
+cursor: pointer;
+position: relative;
+}
+#red{
+    background-color: #db0001;
+    border: 0;
+    color: white;
+    height: 8.5%;
+    width: 10%;
+    position: absolute;
+  left: 60%;
+  border-radius: 4%;
+  font-size: 90%;
+}
+#mail{
+    background-color: white;
+    color:black;
+    border: 1;
+    border-radius: 3%;
+    width: 28%;
+    height: 9%;
+    position: absolute;
+    left: 30%;
+    font-size: 90%;
+
+}
+.foot{
+    /* display: flex; */
+    /* justify-content: space-around; */
+}
+
+.row a{
+    text-decoration: none;
+    color: white;
+    
+}
+#para{
+   position: absolute;
+    right: 466px;
+    margin-top: -21px;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.col1 a,.col2 a,.col3 a{
+    color: white;
+    position: relative;
+    top: 130px;
+    font-size: smaller;
+}
+#net{
+    position: relative;
+    font-size: smaller;
+    top: 390px;
+    right: 882px;
+}
+#netsel{
+    background-color: transparent;
+    color: white;
+    width: 123px;
+    height: 32px;
+    border-color: white ;
+    border-radius: 7%;
+    position: relative ;
+    right: 882px;
+    top: 327px;
+
+
+}
+#hr{
+    color: #303030;
+}
+#h5{
+    position: relative;
+    top: 111px;
+    right: -169px;
+}
